@@ -11,7 +11,7 @@
 
         <activity
             android:name=".View.GUI"
-            android:label="Booking for Sopra">
+            android:label="Fast Booking">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
