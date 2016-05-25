@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.macbookpro.Sopra" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".View.GUI"
+            android:label="Booking for Sopra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.example.macbookpro.Sopra.View.SousGui.Page_accueil_admin"
+            android:label="Accueil administrateur">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_admin.Gestion_Site"
+            android:label="Gestion d'un site">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_admin.Gestion_Salles"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Gestion des salles">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_admin.Affichage_rapport"
+            android:label="Rapport">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_admin.Editon_Salle"
+            android:label="Edition d'une salle">
+        </activity>
+
+
+
+        <activity
+            android:name=".View.SousGui.Page_gerer_profil_user"
+            android:label="Choisissez votre site">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_user.ResulatRechercheUser"
+            android:label="Resultat de votre recherche">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_user.Rechercher_salle_user"
+            android:label="Recherche de salles">
+        </activity>
+        <activity
+            android:name=".View.SousGui.Vues_user.Reservation"
+            android:label="Reservation d'une salle">
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+</manifest>

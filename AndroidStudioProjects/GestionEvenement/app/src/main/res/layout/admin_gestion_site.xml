@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.SousGui.Vues_admin.Gestion_Site">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nom du site géré"
+        android:id="@+id/nomSiteGerer"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15sp"
+        android:textSize="20sp" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_Modifier_site"
+        android:singleLine="true"
+        android:layout_marginTop="60sp"
+        android:layout_alignBottom="@+id/nomsite"
+        android:layout_toRightOf="@+id/nomsite"
+        android:layout_toEndOf="@+id/nomsite"
+        android:hint="modifier le nom du site"
+        android:textSize="12sp"
+        android:layout_marginLeft="20sp" />
+
+    <Button
+
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Modifier nom"
+        android:id="@+id/nomsite"
+        android:layout_marginTop="66sp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="20sp"
+        style="@style/ContentText"/>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+    <Button
+
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Gérer salles"
+        android:id="@+id/gererSalle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/buttonshape"
+        style="@style/ContentText"
+        />
+
+    <Button
+
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Generer rapport"
+        android:id="@+id/genererRapport"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/buttonshape"
+        style="@style/ContentText"/>
+
+    <Button
+
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Supprimer Site"
+        android:id="@+id/suppsite"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/buttonshape"
+        style="@style/ContentText"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

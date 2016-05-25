@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.SousGui.Vues_admin.Editon_Salle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3"
+        android:weightSum="1"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nom du site géré"
+            android:id="@+id/textViewSite"
+            android:layout_gravity="center"
+            android:allowUndo="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nom de la salle gérée"
+            android:id="@+id/textViewSalle"
+            android:layout_gravity="center"
+            android:allowUndo="true"
+            android:layout_below="@+id/textViewSite"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+        <Button
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Modifier"
+            android:id="@+id/valider"
+            android:layout_marginTop="200sp"
+            android:background="@drawable/buttonshape"
+            style="@style/ContentText"
+            android:layout_marginLeft="20sp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:maxLines="1"
+        android:id="@+id/editText1"
+        android:layout_toRightOf="@+id/valider"
+        android:layout_toEndOf="@+id/valider"
+        android:layout_alignBottom="@+id/valider"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:hint="Nouveau nom de la salle"
+        android:textIsSelectable="false"
+        android:textSize="12sp"
+        android:layout_marginLeft="20sp" />
+
+
+        <Button
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Modifier"
+            android:id="@+id/btnValiderSalle"
+            android:layout_marginTop="250sp"
+            android:background="@drawable/buttonshape"
+            style="@style/ContentText"
+            android:layout_marginLeft="20sp" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+
+            android:ems="10"
+            android:maxLines="1"
+            android:id="@+id/editText2"
+            android:layout_toRightOf="@+id/btnValiderSalle"
+            android:layout_toEndOf="@+id/btnValiderSalle"
+            android:layout_alignBottom="@+id/btnValiderSalle"
+
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:hint="Nombre de Personne"
+            android:textSize="12sp"
+            android:layout_marginLeft="20sp" />
+
+    <com.example.macbookpro.Sopra.View.SousGui.Outils_vues.MultiSelectionSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/particularite"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="320sp" />
+
+
+</RelativeLayout>

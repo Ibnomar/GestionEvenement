@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nom de la salle"
+            android:id="@+id/nom_salle_reservation"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:shadowColor="#dc0909"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creneau"
+            android:id="@+id/creneau_reserver"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp" />
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <EditText android:id="@+id/objet_reservation"
+        android:hint=" Objet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp"
+        android:editable="true"
+        android:singleLine="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="20dp" />
+
+    <EditText android:id="@+id/heure_fin"
+        android:hint=" Heure"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_alignParentLeft="true"
+        android:textSize="12sp"
+        android:editable="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Debut"
+        android:id="@+id/button_debut"
+        android:onClick="button_debut_creneau"
+        android:background="@drawable/buttonshape"
+        style="@style/ContentText"
+        android:layout_marginLeft="260dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="210dp" />
+
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Fin"
+        android:id="@+id/button_fin"
+        android:layout_marginTop="270dp"
+        android:onClick="button_fin_creneau"
+        android:background="@drawable/buttonshape"
+        style="@style/ContentText"
+        android:layout_marginLeft="260dp" />
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/heure_debut"
+            android:hint=" Heure"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:editable="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="20dp" />
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reserver"
+                android:id="@+id/button_reserver"
+                android:layout_marginTop="190dp"
+                android:layout_gravity="center"
+                android:background="@drawable/buttonshape"
+                style="@style/ContentText"
+                />
+            <TimePicker android:id="@+id/timePicker1"
+                android:layout_width="0sp"
+                android:layout_height="0sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

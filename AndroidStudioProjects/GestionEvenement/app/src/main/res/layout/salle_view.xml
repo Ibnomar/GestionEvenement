@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textViewGroupName"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:layout_marginLeft="5dp"
+    android:gravity="center_vertical"
+    android:text="@string/Salle"
+    android:textColor="#ffffff"
+    android:textSize="18dp"
+
+    android:padding="10dp"
+    android:textSelectHandleLeft="@string/Salle"
+    android:background="#CF022B"
+    android:textStyle="bold" />
+

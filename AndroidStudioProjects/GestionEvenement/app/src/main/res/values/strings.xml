@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">FastBooking</string>
+    <string name="spinner_title">Select Option</string>
+    <string name="emptyString" />
+    <string name="PassString" />
+    <string name="Salle" />
+    <string name="action_settings">Settings</string>
+    <string-array name="Sites">
+        <item>Site1-Localisation:Toulouse</item>
+        <item>Site2-Localisation:Paris</item>
+        <item>Site3-Localisation:Rennes-</item>
+        <item>Site4-Localisation:Troyes</item>
+    </string-array>
+
+
+
+</resources>

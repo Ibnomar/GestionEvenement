@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".View.SousGui.login_activity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:logo="@drawable/sopra">
+
+
+    <ImageView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/sopra"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFFFF"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="344dp"
+        android:layout_height="84dp"
+        android:paddingTop="4dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView2"
+            android:src="@drawable/unnamed" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Login"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNickname"
+        android:layout_gravity="center_horizontal"
+        android:hint="Nickname"
+        android:textColorHint="#0D0D0D"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtPassword"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password"
+        android:textColorHint="#0D0D0D"
+        android:layout_marginTop="15dp" />
+
+    <Button
+
+        android:text="User"
+
+        android:id="@+id/btnUser"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        style="@style/ContentText"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:background="@drawable/buttonshape"
+        android:text="Admin"
+        style="@style/ContentText"
+        android:id="@+id/btnAdmin"
+
+        />
+
+</LinearLayout>
