@@ -72,7 +72,7 @@
 
     <Button
         android:layout_width="60dp"
-        android:layout_height="25dp"
+        android:layout_height="30dp"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
@@ -89,7 +89,7 @@
 
     <Button
         android:layout_width="60dp"
-        android:layout_height="25dp"
+        android:layout_height="30dp"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"

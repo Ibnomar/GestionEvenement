@@ -14,9 +14,7 @@ import com.example.macbookpro.Sopra.View.Interfaces.GUI_listener.Gui_login_liste
 import com.example.macbookpro.Sopra.View.SousGui.Page_accueil_admin;
 import com.example.macbookpro.Sopra.View.SousGui.Page_gerer_profil_user;
 
-/**
- * Created by macbookpro on 01/01/2016.
- */
+
 public class GUI extends AppCompatActivity {
 
     // Singleton cree des le demarrage.

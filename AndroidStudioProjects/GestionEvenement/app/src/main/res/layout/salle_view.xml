@@ -13,6 +13,6 @@
 
     android:padding="10dp"
     android:textSelectHandleLeft="@string/Salle"
-    android:background="#CF022B"
+    android:background="#e74c3c"
     android:textStyle="bold" />
 
